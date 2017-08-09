@@ -15,25 +15,42 @@ font-family: 'Raleway', sans-serif;
 	font-weight:bold;
 }
 .pequeño {
-	font-size: 0.8em; 
+	font-size: 1em; 
  }
-#peque1 {
-}
+
 #div2 {
-	border: 10px;
-	border-color: black;
-	padding: 50px;
+	padding: 50px ;
 	background-color: #F78E69;
+	text-align: center;
 
 }
  #primera{
 	background-color:  #F78E69;
 	text-align: right;
-	padding:12px;
+	padding:50px;
 }
 #segundo {
 	background-color: #ABE188;
-	padding: 50px;
+	padding: 50px 360px;
 	border-top: 20px solid #F78E69;
 	border-bottom:  20px solid #F78E69;
+}
+.imagenes {
+	background-color: #ABE188;
+	padding: 70px;
+}
+
+
+#img1, #img2  {
+	width: 1305px;
+}
+.pandas {
+	border-top: 20px solid #F78E69;
+	border-bottom:  20px solid #F78E69;
+}
+#abajo {
+	background-color: #F78E69;
+	font-weight:bold;
+	text-align: right;
+	padding: 50px 20px 10px 20px;
 }
