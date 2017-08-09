@@ -9,45 +9,86 @@ font-family: 'Raleway', sans-serif;
 * {
 	color: white;
 	font-family: 'Raleway', sans-serif;
+	margin: 0px auto;	
 }
+
+/* Clases, tags e Id's */
+
+section {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	background-color: #F78E69;;	
+}
+
 #div1  {
-	font-size: 1.9em;
+	font-size: 4em;
 	font-weight:bold;
 }
-.pequeño {
-	font-size: 1em; 
- }
+
+#h1 {
+	font-size: 1.6em; 
+	margin-bottom: 20px;
+}
+
+
+#p {
+	margin-bottom: 64px;
+}
 
 #div2 {
 	padding: 50px ;
 	background-color: #F78E69;
 	text-align: center;
-
 }
- #primera{
+
+#primera{
 	background-color:  #F78E69;
 	text-align: right;
 	padding:50px;
 }
+
+
 #segundo {
 	background-color: #ABE188;
-	padding: 50px 360px;
+	padding: 45px 360px;
 	border-top: 20px solid #F78E69;
 	border-bottom:  20px solid #F78E69;
 }
-.imagenes {
-	background-color: #ABE188;
-	padding: 70px;
+
+.pequeño {
+	font-size: 2em; 
+ }
+
+/* Imagenes y su posicionamiento */
+
+#imagenes {
+	background: #ABE188;
+	border-top: 20px solid #F78E69;
+	border-bottom:  20px solid #F78E69;
+	padding: 7%  10% 5% 10%;
+	font-size: 3em;
+	font-weight: bold;
+
 }
 
-
-#img1, #img2  {
-	width: 1305px;
+#img1 , #img2, #img3 { 
+	width: 100% ;
+	filter: grayscale(100%);
+	margin: 0px;
 }
+
 .pandas {
-	border-top: 20px solid #F78E69;
-	border-bottom:  20px solid #F78E69;
+	background-color: white;
+	width: 200px;
+	padding: 21px;
+	margin-left: 2%;
+	height: 20%;
 }
+
+/* Footer */
+
+
 #abajo {
 	background-color: #F78E69;
 	font-weight:bold;
