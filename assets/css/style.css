@@ -1,0 +1,39 @@
+/*
+Colores & tipografía: 
+Verde - #ABE188;
+Rosa - #F78E69;
+font-family: 'Raleway', sans-serif;
+*/
+
+/* Escribe tu código acá debajo */
+* {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+#div1  {
+	font-size: 1.9em;
+	font-weight:bold;
+}
+.pequeño {
+	font-size: 0.8em; 
+ }
+#peque1 {
+}
+#div2 {
+	border: 10px;
+	border-color: black;
+	padding: 50px;
+	background-color: #F78E69;
+
+}
+ #primera{
+	background-color:  #F78E69;
+	text-align: right;
+	padding:12px;
+}
+#segundo {
+	background-color: #ABE188;
+	padding: 50px;
+	border-top: 20px solid #F78E69;
+	border-bottom:  20px solid #F78E69;
+}
